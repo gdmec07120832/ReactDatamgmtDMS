@@ -1,0 +1,44 @@
+.fieldItem {
+  display: flex;
+  line-height: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  .fieldTitle {
+    width: 100px;
+    margin-right: 12px;
+    text-align: right;
+    flex: 0 0 100px;
+
+    &:after {
+      content: ":";
+    }
+  }
+
+  .fieldContent {
+    flex: 1;
+  }
+}
+
+.fieldItemsWrapper {
+  position: relative;
+  .editBtn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.collapseAnchor {
+  position: absolute;
+  width: 18px;
+  height: 30px;
+  background: var(--primary-color);
+  top: 30%;
+  right: -18px;
+  line-height: 30px;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  color: #fff;
+  z-index: 999;
+}

@@ -1,0 +1,455 @@
+{
+  "data": [
+    {
+      "fid": "100002",
+      "org": "承林",
+      "period": "2021年1期",
+      "time": 13.23,
+      "inventory": 791496,
+      "allocation": 0
+    },
+    {
+      "fid": "102002",
+      "org": "承林",
+      "period": "2021年2期",
+      "time": 6.8,
+      "inventory": 180761,
+      "allocation": 0
+    },
+    {
+      "fid": "103004",
+      "org": "承林",
+      "period": "2021年3期",
+      "time": 19.38,
+      "inventory": 736416,
+      "allocation": 0
+    },
+    {
+      "fid": "104501",
+      "org": "承林",
+      "period": "2021年4期",
+      "time": 18.7,
+      "inventory": 676817,
+      "allocation": 0
+    },
+    {
+      "fid": "105504",
+      "org": "承林",
+      "period": "2021年5期",
+      "time": 23.77,
+      "inventory": 743744,
+      "allocation": 0
+    },
+    {
+      "fid": "106502",
+      "org": "承林",
+      "period": "2021年6期",
+      "time": 28.02,
+      "inventory": 1003042,
+      "allocation": 0
+    },
+    {
+      "fid": "107501",
+      "org": "承林",
+      "period": "2021年7期",
+      "time": 31.38,
+      "inventory": 880290,
+      "allocation": 0
+    },
+    {
+      "fid": "110002",
+      "org": "承林",
+      "period": "2021年8期",
+      "time": 23.5,
+      "inventory": 895851,
+      "allocation": 0
+    },
+    {
+      "fid": "111001",
+      "org": "承林",
+      "period": "2021年9期",
+      "time": 19.4,
+      "inventory": 896921,
+      "allocation": 0
+    },
+    {
+      "fid": "112001",
+      "org": "承林",
+      "period": "2021年10期",
+      "time": 23.93,
+      "inventory": 919839,
+      "allocation": 0
+    },
+    {
+      "fid": "114001",
+      "org": "承林",
+      "period": "2021年11期",
+      "time": 44.53,
+      "inventory": 1383047,
+      "allocation": 0
+    },
+    {
+      "fid": "115501",
+      "org": "承林",
+      "period": "2021年12期",
+      "time": 41.73,
+      "inventory": 1268332,
+      "allocation": 0
+    },
+    {
+      "fid": "118002",
+      "org": "承林",
+      "period": "2022年1期",
+      "time": 27.9,
+      "inventory": 681566,
+      "allocation": 0
+    },
+    {
+      "fid": "121002",
+      "org": "承林",
+      "period": "2022年2期",
+      "time": 29.55,
+      "inventory": 533917,
+      "allocation": 0
+    },
+    {
+      "fid": "100001",
+      "org": "欧康",
+      "period": "2021年1期",
+      "time": 16.3,
+      "inventory": 651383,
+      "allocation": 9055
+    },
+    {
+      "fid": "102001",
+      "org": "欧康",
+      "period": "2021年2期",
+      "time": 4.93,
+      "inventory": 122432,
+      "allocation": 3459
+    },
+    {
+      "fid": "103001",
+      "org": "欧康",
+      "period": "2021年3期",
+      "time": 13.9,
+      "inventory": 561636,
+      "allocation": 9415
+    },
+    {
+      "fid": "104502",
+      "org": "欧康",
+      "period": "2021年4期",
+      "time": 12.87,
+      "inventory": 519481,
+      "allocation": 10322
+    },
+    {
+      "fid": "105503",
+      "org": "欧康",
+      "period": "2021年5期",
+      "time": 18.28,
+      "inventory": 612229,
+      "allocation": 10168
+    },
+    {
+      "fid": "106503",
+      "org": "欧康",
+      "period": "2021年6期",
+      "time": 41.73,
+      "inventory": 719032,
+      "allocation": 9077
+    },
+    {
+      "fid": "108001",
+      "org": "欧康",
+      "period": "2021年7期",
+      "time": 23.48,
+      "inventory": 588809,
+      "allocation": 9716
+    },
+    {
+      "fid": "110001",
+      "org": "欧康",
+      "period": "2021年8期",
+      "time": 27.07,
+      "inventory": 527675,
+      "allocation": 13056
+    },
+    {
+      "fid": "111003",
+      "org": "欧康",
+      "period": "2021年9期",
+      "time": 24.55,
+      "inventory": 566547,
+      "allocation": 9656
+    },
+    {
+      "fid": "112002",
+      "org": "欧康",
+      "period": "2021年10期",
+      "time": 21.98,
+      "inventory": 763549,
+      "allocation": 7717
+    },
+    {
+      "fid": "113501",
+      "org": "欧康",
+      "period": "2021年11期",
+      "time": 44.65,
+      "inventory": 948672,
+      "allocation": 9020
+    },
+    {
+      "fid": "116501",
+      "org": "欧康",
+      "period": "2021年12期",
+      "time": 44.67,
+      "inventory": 1011901,
+      "allocation": 10846
+    },
+    {
+      "fid": "118001",
+      "org": "欧康",
+      "period": "2022年1期",
+      "time": 23.48,
+      "inventory": 561392,
+      "allocation": 6925
+    },
+    {
+      "fid": "121001",
+      "org": "欧康",
+      "period": "2022年2期",
+      "time": 19.07,
+      "inventory": 373495,
+      "allocation": 13829
+    },
+    {
+      "fid": "101501",
+      "org": "林佳兴",
+      "period": "2021年1期",
+      "time": 10.58,
+      "inventory": 135362,
+      "allocation": 0
+    },
+    {
+      "fid": "102003",
+      "org": "林佳兴",
+      "period": "2021年2期",
+      "time": 6.78,
+      "inventory": 26381,
+      "allocation": 0
+    },
+    {
+      "fid": "102501",
+      "org": "林佳兴",
+      "period": "2021年3期",
+      "time": 12.55,
+      "inventory": 186980,
+      "allocation": 0
+    },
+    {
+      "fid": "104001",
+      "org": "林佳兴",
+      "period": "2021年4期",
+      "time": 42.38,
+      "inventory": 209768,
+      "allocation": 0
+    },
+    {
+      "fid": "105502",
+      "org": "林佳兴",
+      "period": "2021年5期",
+      "time": 48.28,
+      "inventory": 231855,
+      "allocation": 0
+    },
+    {
+      "fid": "106001",
+      "org": "林佳兴",
+      "period": "2021年6期",
+      "time": 59.12,
+      "inventory": 290506,
+      "allocation": 0
+    },
+    {
+      "fid": "107001",
+      "org": "林佳兴",
+      "period": "2021年7期",
+      "time": 78.58,
+      "inventory": 307710,
+      "allocation": 0
+    },
+    {
+      "fid": "109501",
+      "org": "林佳兴",
+      "period": "2021年8期",
+      "time": 69.5,
+      "inventory": 318615,
+      "allocation": 0
+    },
+    {
+      "fid": "110501",
+      "org": "林佳兴",
+      "period": "2021年9期",
+      "time": 64.2,
+      "inventory": 320106,
+      "allocation": 0
+    },
+    {
+      "fid": "111501",
+      "org": "林佳兴",
+      "period": "2021年10期",
+      "time": 10.95,
+      "inventory": 377445,
+      "allocation": 0
+    },
+    {
+      "fid": "113001",
+      "org": "林佳兴",
+      "period": "2021年11期",
+      "time": 20.77,
+      "inventory": 507889,
+      "allocation": 0
+    },
+    {
+      "fid": "115001",
+      "org": "林佳兴",
+      "period": "2021年12期",
+      "time": 17.8,
+      "inventory": 488905,
+      "allocation": 0
+    },
+    {
+      "fid": "117501",
+      "org": "林佳兴",
+      "period": "2022年1期",
+      "time": 21.02,
+      "inventory": 340576,
+      "allocation": 0
+    },
+    {
+      "fid": "120501",
+      "org": "林佳兴",
+      "period": "2022年2期",
+      "time": 14.92,
+      "inventory": 249517,
+      "allocation": 0
+    },
+    {
+      "fid": "100501",
+      "org": "香港",
+      "period": "2021年1期",
+      "time": 1.37,
+      "inventory": 6519,
+      "allocation": 0
+    },
+    {
+      "fid": "102004",
+      "org": "香港",
+      "period": "2021年2期",
+      "time": 0.87,
+      "inventory": 7188,
+      "allocation": 0
+    },
+    {
+      "fid": "103003",
+      "org": "香港",
+      "period": "2021年3期",
+      "time": 1.4,
+      "inventory": 8765,
+      "allocation": 0
+    },
+    {
+      "fid": "103501",
+      "org": "香港",
+      "period": "2021年4期",
+      "time": 1.37,
+      "inventory": 8880,
+      "allocation": 0
+    },
+    {
+      "fid": "105501",
+      "org": "香港",
+      "period": "2021年5期",
+      "time": 1.78,
+      "inventory": 10841,
+      "allocation": 0
+    },
+    {
+      "fid": "106501",
+      "org": "香港",
+      "period": "2021年6期",
+      "time": 2.42,
+      "inventory": 11531,
+      "allocation": 0
+    },
+    {
+      "fid": "108501",
+      "org": "香港",
+      "period": "2021年7期",
+      "time": 2.98,
+      "inventory": 12648,
+      "allocation": 0
+    },
+    {
+      "fid": "110003",
+      "org": "香港",
+      "period": "2021年8期",
+      "time": 1.97,
+      "inventory": 12854,
+      "allocation": 0
+    },
+    {
+      "fid": "111002",
+      "org": "香港",
+      "period": "2021年9期",
+      "time": 2.12,
+      "inventory": 15582,
+      "allocation": 0
+    },
+    {
+      "fid": "112003",
+      "org": "香港",
+      "period": "2021年10期",
+      "time": 2.7,
+      "inventory": 18176,
+      "allocation": 0
+    },
+    {
+      "fid": "113002",
+      "org": "香港",
+      "period": "2021年11期",
+      "time": 3.67,
+      "inventory": 21474,
+      "allocation": 0
+    },
+    {
+      "fid": "116001",
+      "org": "香港",
+      "period": "2021年12期",
+      "time": 3.6,
+      "inventory": 20198,
+      "allocation": 0
+    },
+    {
+      "fid": "118501",
+      "org": "香港",
+      "period": "2022年1期",
+      "time": 3.23,
+      "inventory": 13615,
+      "allocation": 0
+    },
+    {
+      "fid": "121004",
+      "org": "香港",
+      "period": "2022年2期",
+      "time": 2.53,
+      "inventory": 9502,
+      "allocation": 0
+    }
+  ],
+  "isError": false,
+  "message": null,
+  "errorCode": 0
+}

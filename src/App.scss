@@ -1,0 +1,178 @@
+:root {
+  --primary-color: #327bf8;
+  --secondary-color: #ff944b;
+  --dangerous-color: #ff4d4f;
+
+  --content-section-bg-color: #f0f2f5;
+}
+
+@font-face {
+  font-family: 'ali_ph';
+  font-display: swap;
+  src: url('//at.alicdn.com/t/webfont_lwff3wtz44.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/webfont_lwff3wtz44.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/webfont_lwff3wtz44.woff2') format('woff2'),
+  url('//at.alicdn.com/t/webfont_lwff3wtz44.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/webfont_lwff3wtz44.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/webfont_lwff3wtz44.svg#AlibabaPuHuiTiM') format('svg'); /* iOS 4.1- */
+}
+
+body {
+  margin: 0;
+  min-width: 1280px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: hidden;
+}
+
+#root,
+.App {
+  height: 100%;
+}
+
+/************* Scrollbar ******************/
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+  height: 0;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsla(0,0%,0%,0.35);
+  background-clip: padding-box;
+  border: 3px solid rgba(0,0,0,0);
+  border-radius: 6px;
+  min-height: 36px;
+  &:hover {
+    background-color: hsla(0,0%,0%,0.4)
+  }
+}
+/************* Scrollbar ******************/
+
+.ant-table-cell .ant-btn-link {
+  padding: 0;
+}
+.ant-table-cell .ant-btn-text {
+  padding: 0;
+}
+
+.ant-table-cell .ant-space-item:not(:last-of-type) .ant-btn-link {
+  margin-right: 8px;
+}
+
+.ant-table-cell .ant-space-item:not(:last-of-type) .ant-btn-text {
+  margin-right: 8px;
+}
+
+.ant-table ::-webkit-scrollbar {
+  height: 16px;
+}
+
+.ant-table-pagination.ant-pagination {
+  margin-bottom: 0 !important;
+}
+
+@keyframes flashing-highlight-row {
+  from {
+    background: #ffff0015;
+  }
+
+  to {
+    background: transparent;
+  }
+}
+.animate-highlight-row {
+  animation-name: flashing-highlight-row;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+.ant-empty-description {
+  user-select: none;
+}
+
+.ant-table .react-resizable {
+  position: relative;
+  background-clip: padding-box;
+}
+
+.ant-table .react-resizable-handle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 10px;
+  height: 100%;
+  cursor: col-resize;
+  &:hover {
+    background: #eee;
+  }
+  &:active {
+    background: #ccc;
+  }
+}
+
+.ant-table .ant-table-thead th.ant-table-cell {
+  font-family: 'Microsoft YaHei Regular', 'Microsoft YaHei UI', serif;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 600;
+}
+
+.custom-table-expanded-row {
+  background: #f0f7ff;
+}
+
+.art-empty-wrapper .empty-image {
+  display: inline;
+}
+
+.react-codemirror2 {
+  font-size: 12px;
+}
+
+.common-section-head {
+  position: relative;
+  color: #000;
+  line-height: 25px;
+  padding: 14px 14px 14px 36px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1px solid #e9e9e9;
+  &:before {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 20px;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2px;
+    width: 4px;
+    background: var(--primary-color);
+  }
+}
+
+/************ collapsed-buttons-wrapper ****************/
+.collapsedButtonsDropdownWrapper {
+  .ant-dropdown-menu-item {
+    padding: 0;
+    .ant-btn {
+      padding: 5px 14px;
+      height: auto;
+    }
+  }
+}
+/************ collapsed-buttons-wrapper ****************/

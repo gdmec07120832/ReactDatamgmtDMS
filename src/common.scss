@@ -1,0 +1,73 @@
+.flex {
+  display: flex;
+  align-items: center;
+
+  &-start {
+    justify-content: flex-start;
+  }
+}
+
+$size: 2 5 10 15 20;
+
+@each $n in $size {
+  .py#{$n} {
+    padding-top: $n * 1px;
+    padding-bottom: $n * 1px;
+  }
+  .px#{$n} {
+    padding-left: $n * 1px;
+    padding-right: $n * 1px;
+  }
+  .pt#{$n} {
+    padding-top: $n * 1px;
+  }
+  .pb#{$n} {
+    padding-bottom: $n * 1px;
+  }
+  .pl#{$n} {
+    padding-left: $n * 1px;
+  }
+  .pr#{$n} {
+    padding-right: $n * 1px;
+  }
+
+  .my#{$n} {
+    margin-top: $n * 1px;
+    margin-bottom: $n * 1px;
+  }
+  .mx#{$n} {
+    margin-left: $n * 1px;
+    margin-right: $n * 1px;
+  }
+  .mt#{$n} {
+    margin-top: $n * 1px;
+  }
+  .mb#{$n} {
+    margin-bottom: $n * 1px;
+  }
+  .ml#{$n} {
+    margin-left: $n * 1px;
+  }
+  .mr#{$n} {
+    margin-right: $n * 1px;
+  }
+}
+
+.ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.slide-in-enter {
+  padding-right: 200px;
+  opacity: 0;
+}
+
+.slide-in-enter-active {
+  padding-right: 0;
+  opacity: 1;
+  transition:  all 500ms ease-in-out;
+}
